@@ -74,6 +74,23 @@ function Home() {
         image="https://m.media-amazon.com/images/I/61qMuYQpbEL._AC_SX679_.jpg"
         />
       </div>
+      <div className ="home__row">
+        <Product 
+        id ="90"
+        title="LHTML and CSS QuickStart Guide: The Simplified Beginners Guide to Developing a Strong Coding Foundation, Building Responsive Websites, and Mastering ... Web Design (QuickStart Guides™ - Technology"
+        price={25.88}
+        rating={4}
+        image ="https://m.media-amazon.com/images/I/510cIbc8ToL._SX404_BO1,204,203,200_.jpg"
+        />
+        <Product 
+        id ="91"
+        title="ChatGPT-4 for Beginners: Boost Productivity and Skyrocket Your Earning Potential with Conversational AI Solutions"
+        price={13.99}
+        rating={5}
+        image ="https://m.media-amazon.com/images/I/51IFmsFrXpL.jpg"
+        />
+      
+      </div>
     </div>
   </div>
   )

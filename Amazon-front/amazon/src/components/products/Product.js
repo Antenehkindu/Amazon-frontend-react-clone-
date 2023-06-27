@@ -30,7 +30,7 @@ const [{basket},dispatch] = useStateValue();
               {Array(rating)
                 .fill()
                 .map(() => (
-                  <p>*</p>
+                  <p>🌟</p>
                 ))
               }
           </div>
