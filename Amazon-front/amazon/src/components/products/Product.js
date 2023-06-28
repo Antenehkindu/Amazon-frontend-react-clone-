@@ -11,6 +11,7 @@ const [{basket},dispatch] = useStateValue();
       item: {
         id:id,
         title:title,
+        image: image,
         price:price,
         rating:rating,
       },
